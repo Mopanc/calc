@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="icon" type="image/jpg"  href="./img/outline_calculate_white_24dp.png" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <h1>Calculadora</h1>
+
+
+    <FORM NAME="Calc">
+    <TABLE class="tableBox">
+        <TR>
+            <TD ALIGN="CENTER">
+                <a class="btnChange">Standard</a><a class="btnChange">Scientific</a>
+                <INPUT TYPE="text" class="insertBox"  NAME="Input">
+            </TD>
+        </TR>
+        <TR>
+            <TD class="buttons">
+                <INPUT class="num" TYPE="button" NAME="one"
+                VALUE="  1  " onClick="Calc.Input.value += '1'">
+                <INPUT class="num" TYPE="button" NAME="two"
+                VALUE="  2  " onClick="Calc.Input.value += '2'">
+                <INPUT class="num" TYPE="button" NAME="three"
+                VALUE="  3  " onClick="Calc.Input.value += '3'">
+                <INPUT class="num" TYPE="button" NAME="plus"
+                VALUE="  +  " onClick="Calc.Input.value += ' + '">
+                <BR>
+                <br>
+                <INPUT class="num" TYPE="button" NAME="four"
+                 VALUE="  4  " onClick="Calc.Input.value += '4'">
+                 <INPUT class="num" TYPE="button" NAME="five"
+                 VALUE="  5  " onClick="Calc.Input.value += '5'">
+                 <INPUT class="num" TYPE="button" NAME="six"
+                 VALUE="  6  " onClick="Calc.Input.value += '6'">
+                 <INPUT class="num" TYPE="button" NAME="minus"
+                 VALUE="  -   " onClick="Calc.Input.value += ' - '">
+                <BR>
+                <br>
+                 <INPUT class="num" TYPE="button" NAME="seven"
+                 VALUE="  7  " onClick="Calc.Input.value += '7'">
+                 <INPUT class="num" TYPE="button" NAME="eight"
+                 VALUE="  8  " onClick="Calc.Input.value += '8'">
+                 <INPUT class="num" TYPE="button" NAME="nine"
+                 VALUE="  9  " onClick="Calc.Input.value += '9'">
+                 <INPUT class="num" TYPE="button" NAME="times"
+                 VALUE="  x  " onClick="Calc.Input.value += '*'">
+                <BR>
+                <br>
+                <INPUT class="num" TYPE="button" NAME="clear"
+                 VALUE="  c  " onClick="Calc.Input.value = ''">
+                 <INPUT class="num" TYPE="button" NAME="zero"
+                 VALUE="  0  " onClick="Calc.Input.value += '0'">
+                 <INPUT class="num" TYPE="button" NAME="DoIt"
+                 VALUE="  =  " onClick="Calc.Input.value = eval(Calc.Input.value)">
+                 <INPUT class="num" TYPE="button" NAME="div"
+                 VALUE="  /   " onClick="Calc.Input.value += ' / '">
+            </TD>
+        </TR>
+    </TABLE>
+    </FORM>
+    <footer>
+        <hr>
+        &#128153
+        <br> 
+        Design by: 
+        <br>
+        <br>
+        Jorge Morais </footer>
+</body>
+</html>
